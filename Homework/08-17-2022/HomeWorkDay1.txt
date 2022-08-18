@@ -1,0 +1,50 @@
+Book: The Swift Programming Language
+https://docs.swift.org/swift-book/
+1. Read: Control Transfer Statement - Control Flow Section
+2. Read: API Availability - Control Flow Section
+3. Read: Recursive Enumerations -
+4. Read: Subscript -
+5. Read: Convenience initializer - Initialization Section
+6. Read: Deinitialization -
+7. Read: Optional Chaining -
+9. Read: Downcasting - Type Casting Section
+10. Read. Delegation - Protocols Section
+10. Read: Optional Protocol Requirements - Protocols Section
+11. Read: Automatic Reference Counting -
+
+## Questions:
+1. What is the difference between var and let?
+'let' is a constant and cannot change its value once declared and the 'var' can change its value at any time.
+2. What is an optional?
+It can contain a value or be nil.
+3. What is optional chaining vs optional binding?
+Optional chaining verifies that the object with the symbol of '?' and it performs the corresponding action if the element exists.
+Optional binding is similar to chaining, bet the difference the validation is inside with an 'if'.
+4. What are the different ways to unwrap an optional? How do they work? Are they safe?
+They're 'an if else block , optional binding, optional chaining, forced unwrapping and with the nil coalescing operator'
+"if else block" is done with a block and validates that it isn't nil.
+"Optional binding" is done with a block using the 'if-let'.
+"Optional chaining" checks with operator '?', it verifies the value of its chained elements exists.
+"Forced unwrapping" ensures that value always exists, it throws an error if it's null.
+"nil coalescing operator" checks if the value is null assigns a default value. 
+Forced unwrapping is not safe, it may throw an error. It is only used when the value will always be different from nil. 
+5. What is a closure? 
+They're anonymous functions, they contain encapsulated functions
+6.What is the difference between a class and a struct?
+Classes are reference types and structs are value types, and the classes can inherit.
+7. What is the syntax '??' do?
+"nil coalescing operator" checks if the value is null assigns a default value. 
+8. What is a tuple?
+Is a kind of dictionary and returns multiple values from a function call.
+9. What is Any vs AnyObject?
+Any is used for all types and AnyObject is used for Class Types.
+10. What is a protocol?
+Defines rules, structures that must be carried out, it's adopted by a class.
+11. What is Delegation?
+Is a pattern, the core purpose of the delegate pattern is to allow an object to communicate back to its owner in a decoupled way.
+
+
+
+Read this article
+https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes
+
